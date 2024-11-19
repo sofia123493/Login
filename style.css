@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Lexend:wght@100..900&family=Outfit:wght@100..900&display=swap');
+
+*{
+    font-family: "Lexend", sans-serif;
+    color: rgb(59, 30, 84);
+}
+
+
+body{
+    background-color: rgb(59, 30, 84)
+}
+.container{
+    background-color: rgb( 242, 219, 255);
+    border-radius: 8px;
+    width: 545px;
+    height: 584px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    left: 653px;
+    top: 129px;
+    transition: none;
+    cursor: move;
+
+    transition: none;
+    cursor: move;
+    width: 488px;
+    height: 520px;
+
+}
+input{
+    background-color: rgb(155, 126, 189);
+    border-radius: 4px;
+    color: white;
+    border: none;
+    padding: 5px;
+
+    position: relative;
+    left: -37px;
+    top: 27px;
+    width: 231px;
+    transition: none;
+    cursor: move;
+
+    height: 29px;
+
+    position: relative;
+    left: -11px;
+    top: 28px;
+    width: 231px;
+    height: 29px;
+    transition: none;
+    cursor: move;
+}
+:placeholder-shown{
+    color: white;
+}
+button{
+    background-color: rgb(131, 69, 204);
+    border-radius: 4px;
+    color: white;
+    border: none;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 191px;
+    top: 102px;
+    width: 174.594px;
+    transition: none;
+    cursor: move;
+
+    left: 117px;
+    top: 79px;
+    width: 240.594px;
+    height: 38px;
+    transition: none;
+    cursor: move;
+}
+h1{
+    position: relative;
+    left: 0px;
+    top: 30px;
+    transition: none;
+    cursor: move;
+}
+.ola{
+    width: 127px;
+    transform: translate(418px, 0px);
+    height: 21px;
+    position: relative;
+    left: -287px;
+    top: 21px;
+    transition: none;
+    cursor: move;
+
+    left: -354px;
+    top: 23px;
+    transition: none;
+    cursor: move;
+
+}
+.legenda{
+    width: 254px;
+    left: -325px;
+    top: 17px;
+    cursor: move;
+
+    position: relative;
+    will-change: top, left;
+    left: 109px;
+    top: 16px;
+
+}
+.google{
+    background-color: black;
+    color: gray;
+    left: 116px;
+    top: 135px;
+    justify-content: none;
+    align-items: flex-start;
+    padding-left: 100px;
+}
+img{
+    width: 17.3226px;
+    height: 16.667px;
+    transform: translate(149.333px, 185.333px);
+    position: relative;
+    left: -190px;
+    top: -77px;
+    cursor: move;
+    transition: none;
+}
+.fim{
+    color: black;
+    position: relative;
+    left: -4px;
+    top: 104px;
+    transition: none;
+    cursor: move;
+}
